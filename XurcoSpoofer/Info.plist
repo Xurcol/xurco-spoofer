@@ -11,7 +11,7 @@
 			<string>lol.xurco.spoofer.location</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>tlocation</string>
+				<string>xurcospoofer</string>
 			</array>
 		</dict>
 	</array>
