@@ -1,4 +1,4 @@
-// Renders the TLocation icon (blue gradient + white pin) to assets/tlocation-icon.png.
+// Renders the XurcoSpoofer icon (blue gradient + white pin) to assets/tlocation-icon.png.
 import AppKit
 
 let size = 1024
@@ -19,7 +19,7 @@ let colors = [
 let gradient = CGGradient(colorsSpace: CGColorSpaceCreateDeviceRGB(), colors: colors, locations: [0, 1])!
 ctx.drawLinearGradient(gradient, start: CGPoint(x: 512, y: 1024), end: CGPoint(x: 512, y: 0), options: [])
 
-// White map pin — round head + tapered tail, similar to TLocation.icon/Assets/Pin.svg.
+// White map pin — round head + tapered tail, similar to XurcoSpoofer.icon/Assets/Pin.svg.
 // (The head is a circle; the tail is two symmetric bezier curves down to a point.)
 let headCenter = CGPoint(x: 512, y: 620)
 let headRadius: CGFloat = 280
