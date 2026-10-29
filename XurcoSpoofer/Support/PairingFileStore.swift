@@ -9,6 +9,7 @@ import UniformTypeIdentifiers
 enum PairingFileStore {
     static let fileName = "pairingFile.plist"
     static let supportedContentTypes: [UTType] = [
+        UTType(filenameExtension: "rppairing", conformingTo: .data)!,
         UTType(filenameExtension: "mobiledevicepairing", conformingTo: .data)!,
         UTType(filenameExtension: "mobiledevicepair", conformingTo: .data)!,
         .propertyList
